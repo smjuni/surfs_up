@@ -5,5 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return "Hello World"
-@app.route('/')
-f"{hello_world}, My name is Stephanie!"
+
+def name():
+    name = [Stephanie]
+    return f"{hello_world}, my name is (str{name})"
